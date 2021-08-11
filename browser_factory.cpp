@@ -4,10 +4,10 @@
 
 #include "browser_factory.h"
 
-Chromium BrowserFactory::NewChromium(string& profile, string& key, string& name, string& storage) {
-    return {profile, key, name, storage};
+Browser* BrowserFactory::NewChromium(string& profile, string& key, string& name, string& storage) {
+    return new Chromium(profile, key, name, storage);
 }
 
-Firefox BrowserFactory::NewFirefox(string& profile, string& key, string& name, string& storage) {
-    return {profile, key, name, storage};
+Browser* BrowserFactory::NewFirefox(string& profile, string& key, string& name, string& storage) {
+    return new Firefox(profile, key, name, storage);
 }

@@ -11,8 +11,8 @@
 
 class BrowserFactory {
 public:
-    static Chromium NewChromium(string& profile,string& key,string& name,string& storage);
-    static Firefox NewFirefox(string& profile,string& key,string& name,string& storage);
+    static Browser* NewChromium(string& profile,string& key,string& name,string& storage);
+    static Browser* NewFirefox(string& profile,string& key,string& name,string& storage);
 };
 
 
