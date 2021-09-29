@@ -120,10 +120,28 @@
 		<Unit filename="D:/CLionProjects/BrowserProbe/cJSON.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/copy_dir.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/copy_dir.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/json.hpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/main.cpp">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/parse.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/sqlite3.c">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/sqlite3.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/sqlitelib.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/struct.h">
@@ -133,9 +151,6 @@
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/utils.h">
-			<Option target="BrowserProbe"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/xxx.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/CMakeLists.txt">

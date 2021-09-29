@@ -5,40 +5,48 @@
 #ifndef BROWSERPROBE_BOOKMARKS_H
 #define BROWSERPROBE_BOOKMARKS_H
 
-
-#include "cJSON.h"
+#include <cstdio>
+#include <iostream>
 #include "parse.h"
 #include <vector>
+#include "sqlitelib.h"
+#include "json.hpp"
 
 using namespace std;
+using namespace nlohmann;
 
-typedef struct Bookmark{
-    int64_t   ID{};
-    string    Name;
-    string    Type;
-    string    URL;
-    time_t    DateAdded{};
+typedef struct Bookmark {
+    int64_t ID{};
+    string Name;
+    string Type;
+    string URL;
+    time_t DateAdded{};
 } BrowserBookMark;
 
-typedef std::vector<BrowserBookMark*> BookmarkPtrVec;
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Bookmark, ID, Name, Type, URL, DateAdded)
+
+typedef std::vector<BrowserBookMark> BookmarkPtrVec;
 
 class bookmarks : public Item {
 public:
-    string mainPath;
     BookmarkPtrVec bookmarksData;
+
     bookmarks(string main, string sub);
+
     void ChromeParse(char key[]) override;
 
     void FirefoxParse() override;
 
-    void OutPut(string format, string browser, string dir) override;
-
-    void CopyDB() override;
-
-    void Release() override;
+    void OutPut(OutputType format, string browser, string dir) override;
 
 private:
-    cJSON* getBookmarkChildren(cJSON* node);
+    void getBookmarkChildren(json node);
+
+    void outPutJson(string browser, string dir) override;
+
+    void outPutCsv(string browser, string dir) override;
+
+    void outPutConsole(string browser, string dir) override;
 };
 
 

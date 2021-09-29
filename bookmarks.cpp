@@ -2,7 +2,6 @@
 // Created by Finger on 8/6/2021.
 //
 
-#include <iostream>
 #include "bookmarks.h"
 
 bookmarks::bookmarks(string main, string sub) {
@@ -11,51 +10,67 @@ bookmarks::bookmarks(string main, string sub) {
 
 void bookmarks::ChromeParse(char key[]) {
     string bookmarks = ReadFile(ChromeBookmarkFile);
-    cJSON *root = cJSON_Parse(bookmarks.c_str());
-    cJSON *arrayobj = cJSON_GetObjectItem(root, "roots");
-    int size = cJSON_GetArraySize(arrayobj);
-    cJSON *item;
-    for (int i = 0; i < size; i++) {
-        item = cJSON_GetArrayItem(arrayobj, i);
-        getBookmarkChildren(item);
+    json root = json::parse(bookmarks);
+    array arrayObj = root["roots"];
+    for (auto& element : arrayObj) {
+        getBookmarkChildren(element);
     }
 }
 
-cJSON *bookmarks::getBookmarkChildren(cJSON *node) {
-    Bookmark bm;
-    bm.ID = cJSON_GetObjectItem(node, bookmarkID)->valueint;
-    bm.Name = cJSON_GetObjectItem(node, bookmarkName)->valuestring;
-    bm.URL = cJSON_GetObjectItem(node, bookmarkUrl)->valuestring;
-    bm.DateAdded = TimeEpochFormat(cJSON_GetObjectItem(node, bookmarkID)->valueint);
-    cJSON *nodeType = cJSON_GetObjectItem(node, bookmarkType);
-    cJSON *children = cJSON_GetObjectItem(node, bookmarkChildren);
-    if (nodeType != nullptr) {
-        bm.Type = nodeType->valuestring;
-        bookmarksData.push_back(&bm);
-        if (children != nullptr && cJSON_IsArray(children)) {
-            int size = cJSON_GetArraySize(children);
-            cJSON *item;
-            for (int i = 0; i < size; i++) {
-                item = cJSON_GetArrayItem(children, i);
-                children = getBookmarkChildren(item);
+void bookmarks::getBookmarkChildren(json j) {
+    Bookmark bm {
+        .ID = j[bookmarkID].get<int64_t>(),
+        .Name = j[bookmarkName].get<string>(),
+        .URL = j[bookmarkUrl].get<string>(),
+        .DateAdded = j[bookmarkAdded].get<time_t>()
+    };
+    json childArray = j[bookmarkChildren];
+    if (!j[bookmarkType].is_null()){
+        bm.Type = j[bookmarkType].get<string>();
+        bookmarksData.push_back(bm);
+        if (!childArray.is_null() && childArray.is_array()){
+            for (auto& child : childArray){
+                getBookmarkChildren(child);
             }
         }
     }
-    return children;
 }
 
 void bookmarks::FirefoxParse() {
-    cout << "BMW" << endl;
+    auto db = sqlitelib::Sqlite(FirefoxDataFile);
+    db.execute(closeJournalMode);
+    auto bookmarkRows = db.execute<sqlite3_int64, string, sqlite3_int64, sqlite3_int64, string>(queryFirefoxBookMarks);
+    for (const auto &[id, url, bType, dateAdded, title]:bookmarkRows) {
+        Bookmark bookmark = {id, title, BookMarkType(bType), url, dateAdded / 1000000};
+        bookmarksData.push_back(bookmark);
+    }
 }
 
-void bookmarks::OutPut(string format, string browser, string dir) {
-    cout << "BMW" << endl;
+void bookmarks::OutPut(OutputType format, string browser, string dir) {
+    switch (format) {
+        case JSON:
+            outPutJson(browser, dir);
+            break;
+        case CSV:
+            outPutCsv(browser, dir);
+            break;
+        case CONSOLE:
+            outPutConsole(browser, dir);
+            break;
+    }
 }
 
-void bookmarks::CopyDB() {
-    cout << "BMW" << endl;
+void bookmarks::outPutJson(string browser, string dir) {
+    json jsonObject = bookmarksData;
+    WriteFile("bookmark.json", jsonObject.dump(4).c_str());
 }
 
-void bookmarks::Release() {
-    cout << "BMW" << endl;
+void bookmarks::outPutCsv(string browser, string dir) {
+    //TODO:outPutCsv
 }
+
+void bookmarks::outPutConsole(string browser, string dir) {
+    json jsonObject = bookmarksData;
+    cout << jsonObject.dump(4).c_str() << endl;
+}
+

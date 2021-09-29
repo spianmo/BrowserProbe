@@ -42,17 +42,36 @@
 #define bookmarkType     "type"
 #define bookmarkChildren "children"
 
+enum OutputType{JSON,CSV,CONSOLE};
+
 class Item {
 public:
+    string mainPath;
+
     virtual void ChromeParse(char key[]) = 0;
 
     virtual void FirefoxParse() = 0;
 
-    virtual void OutPut(string format, string browser, string dir) = 0;
+    virtual void OutPut(OutputType format, string browser, string dir) = 0;
 
-    virtual void CopyDB() = 0;
+    void CopyDB() const;
 
-    virtual void Release() = 0;
+    void Release() const;
+
+private:
+    virtual void outPutJson(string basicString, string string1) = 0;
+
+    virtual void outPutCsv(string basicString, string string1) = 0;
+
+    virtual void outPutConsole(string basicString, string string1) = 0;
 };
+
+void Item::CopyDB() const {
+    copyToLocalPath(mainPath, filepathBase(mainPath));
+}
+
+void Item::Release() const {
+    remove(filepathBase(mainPath).c_str());
+}
 
 #endif //BROWSERPROBE_PARSE_H

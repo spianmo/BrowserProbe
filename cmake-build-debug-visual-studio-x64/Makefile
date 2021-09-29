@@ -262,6 +262,30 @@ cJSON.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\cJSON.cpp.s
 .PHONY : cJSON.cpp.s
 
+copy_dir.obj: copy_dir.cpp.obj
+.PHONY : copy_dir.obj
+
+# target to build an object file
+copy_dir.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\copy_dir.cpp.obj
+.PHONY : copy_dir.cpp.obj
+
+copy_dir.i: copy_dir.cpp.i
+.PHONY : copy_dir.i
+
+# target to preprocess a source file
+copy_dir.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\copy_dir.cpp.i
+.PHONY : copy_dir.cpp.i
+
+copy_dir.s: copy_dir.cpp.s
+.PHONY : copy_dir.s
+
+# target to generate assembly for a file
+copy_dir.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\copy_dir.cpp.s
+.PHONY : copy_dir.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -285,6 +309,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\main.cpp.s
 .PHONY : main.cpp.s
+
+sqlite3.obj: sqlite3.c.obj
+.PHONY : sqlite3.obj
+
+# target to build an object file
+sqlite3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\sqlite3.c.obj
+.PHONY : sqlite3.c.obj
+
+sqlite3.i: sqlite3.c.i
+.PHONY : sqlite3.i
+
+# target to preprocess a source file
+sqlite3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\sqlite3.c.i
+.PHONY : sqlite3.c.i
+
+sqlite3.s: sqlite3.c.s
+.PHONY : sqlite3.s
+
+# target to generate assembly for a file
+sqlite3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\sqlite3.c.s
+.PHONY : sqlite3.c.s
 
 utils.obj: utils.cpp.obj
 .PHONY : utils.obj
@@ -337,9 +385,15 @@ help:
 	@echo ... cJSON.obj
 	@echo ... cJSON.i
 	@echo ... cJSON.s
+	@echo ... copy_dir.obj
+	@echo ... copy_dir.i
+	@echo ... copy_dir.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sqlite3.obj
+	@echo ... sqlite3.i
+	@echo ... sqlite3.s
 	@echo ... utils.obj
 	@echo ... utils.i
 	@echo ... utils.s
