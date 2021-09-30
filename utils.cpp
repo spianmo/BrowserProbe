@@ -42,13 +42,12 @@ string FilePathBase(const string &filename)
 #elif _WIN32
     const string slash = "\\";
 #endif
-    size_t lastDotPosition = filename.find_last_of('.');
     size_t lastSlashPosition = filename.find_last_of(slash);
 
-    if (lastDotPosition != string::npos && lastSlashPosition != string::npos && lastDotPosition > lastSlashPosition)
-        return filename.substr(lastSlashPosition + 1, lastDotPosition - lastSlashPosition - 1);
+    if (lastSlashPosition != string::npos)
+        return filename.substr(lastSlashPosition + 1);
     else
-        return string();
+        return "";
 }
 
 string FormatFileName(const string &dir, const string &browser, const string &filename, const string &format) {

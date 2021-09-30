@@ -1,11 +1,13 @@
 #include <iostream>
 #include "json.hpp"
+#include "utils.h"
 
 using namespace std;
 using namespace nlohmann;
 
 int main() {
-    std::cout << getenv("USERPROFILE") << std::endl;
+    std::cout <<getenv("USERPROFILE") << std::endl;
+    std::cout << FilePathBase(getenv("USERPROFILE")) << std::endl;
     void* number =  0;
     printf("%d\n",sizeof(&number));
 #ifdef __GNUC__
