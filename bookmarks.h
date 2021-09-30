@@ -23,17 +23,17 @@ typedef struct Bookmark {
     time_t DateAdded{};
 } BrowserBookMark;
 
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Bookmark, ID, Name, Type, URL, DateAdded)
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(BrowserBookMark, ID, Name, Type, URL, DateAdded)
 
-typedef std::vector<BrowserBookMark> BookmarkPtrVec;
+typedef std::vector<BrowserBookMark> BookmarkVec;
 
 class bookmarks : public Item {
 public:
-    BookmarkPtrVec bookmarksData;
+    BookmarkVec bookmarksData;
 
     bookmarks(string main, string sub);
 
-    void ChromeParse(char key[]) override;
+    void ChromeParse(bytes secretKey) override;
 
     void FirefoxParse() override;
 

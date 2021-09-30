@@ -21,5 +21,6 @@ time_t TimeEpochFormat(int64_t epoch);
 void copyToLocalPath(const string& src,const string& dst);
 string FilePathBase(const string& filepath);
 string FormatFileName(const string &dir, const string &browser, const string &filename, const string &format);
+bool IntToBool(int i);
 
 #endif //BROWSERPROBE_UTILS_H

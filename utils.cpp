@@ -56,3 +56,7 @@ string FormatFileName(const string &dir, const string &browser, const string &fi
     string p = dir + Format("%s_%s.%s", r.c_str(), filename.c_str(), format.c_str());
     return p;
 }
+
+bool IntToBool(int i) {
+    return i == 1;
+}

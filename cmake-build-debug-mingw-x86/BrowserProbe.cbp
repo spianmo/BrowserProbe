@@ -116,10 +116,34 @@
 		<Unit filename="D:/CLionProjects/BrowserProbe/cJSON.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/cookies.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/cookies.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/copy_dir.cpp">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/copy_dir.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/creditCards.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/creditCards.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/downloads.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/downloads.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/historyData.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/historyData.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/json.hpp">
@@ -132,6 +156,12 @@
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/parse.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/passwords.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/passwords.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/sqlite3.c">

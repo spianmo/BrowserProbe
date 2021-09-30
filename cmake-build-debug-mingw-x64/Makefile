@@ -272,6 +272,30 @@ cJSON.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/cJSON.cpp.s
 .PHONY : cJSON.cpp.s
 
+cookies.obj: cookies.cpp.obj
+.PHONY : cookies.obj
+
+# target to build an object file
+cookies.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/cookies.cpp.obj
+.PHONY : cookies.cpp.obj
+
+cookies.i: cookies.cpp.i
+.PHONY : cookies.i
+
+# target to preprocess a source file
+cookies.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/cookies.cpp.i
+.PHONY : cookies.cpp.i
+
+cookies.s: cookies.cpp.s
+.PHONY : cookies.s
+
+# target to generate assembly for a file
+cookies.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/cookies.cpp.s
+.PHONY : cookies.cpp.s
+
 copy_dir.obj: copy_dir.cpp.obj
 .PHONY : copy_dir.obj
 
@@ -295,6 +319,78 @@ copy_dir.s: copy_dir.cpp.s
 copy_dir.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/copy_dir.cpp.s
 .PHONY : copy_dir.cpp.s
+
+creditCards.obj: creditCards.cpp.obj
+.PHONY : creditCards.obj
+
+# target to build an object file
+creditCards.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj
+.PHONY : creditCards.cpp.obj
+
+creditCards.i: creditCards.cpp.i
+.PHONY : creditCards.i
+
+# target to preprocess a source file
+creditCards.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/creditCards.cpp.i
+.PHONY : creditCards.cpp.i
+
+creditCards.s: creditCards.cpp.s
+.PHONY : creditCards.s
+
+# target to generate assembly for a file
+creditCards.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/creditCards.cpp.s
+.PHONY : creditCards.cpp.s
+
+downloads.obj: downloads.cpp.obj
+.PHONY : downloads.obj
+
+# target to build an object file
+downloads.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/downloads.cpp.obj
+.PHONY : downloads.cpp.obj
+
+downloads.i: downloads.cpp.i
+.PHONY : downloads.i
+
+# target to preprocess a source file
+downloads.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/downloads.cpp.i
+.PHONY : downloads.cpp.i
+
+downloads.s: downloads.cpp.s
+.PHONY : downloads.s
+
+# target to generate assembly for a file
+downloads.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/downloads.cpp.s
+.PHONY : downloads.cpp.s
+
+historyData.obj: historyData.cpp.obj
+.PHONY : historyData.obj
+
+# target to build an object file
+historyData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/historyData.cpp.obj
+.PHONY : historyData.cpp.obj
+
+historyData.i: historyData.cpp.i
+.PHONY : historyData.i
+
+# target to preprocess a source file
+historyData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/historyData.cpp.i
+.PHONY : historyData.cpp.i
+
+historyData.s: historyData.cpp.s
+.PHONY : historyData.s
+
+# target to generate assembly for a file
+historyData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/historyData.cpp.s
+.PHONY : historyData.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -343,6 +439,30 @@ parse.s: parse.cpp.s
 parse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/parse.cpp.s
 .PHONY : parse.cpp.s
+
+passwords.obj: passwords.cpp.obj
+.PHONY : passwords.obj
+
+# target to build an object file
+passwords.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/passwords.cpp.obj
+.PHONY : passwords.cpp.obj
+
+passwords.i: passwords.cpp.i
+.PHONY : passwords.i
+
+# target to preprocess a source file
+passwords.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/passwords.cpp.i
+.PHONY : passwords.cpp.i
+
+passwords.s: passwords.cpp.s
+.PHONY : passwords.s
+
+# target to generate assembly for a file
+passwords.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make CMakeFiles/BrowserProbe.dir/passwords.cpp.s
+.PHONY : passwords.cpp.s
 
 sqlite3.obj: sqlite3.c.obj
 .PHONY : sqlite3.obj
@@ -419,15 +539,30 @@ help:
 	@echo ... cJSON.obj
 	@echo ... cJSON.i
 	@echo ... cJSON.s
+	@echo ... cookies.obj
+	@echo ... cookies.i
+	@echo ... cookies.s
 	@echo ... copy_dir.obj
 	@echo ... copy_dir.i
 	@echo ... copy_dir.s
+	@echo ... creditCards.obj
+	@echo ... creditCards.i
+	@echo ... creditCards.s
+	@echo ... downloads.obj
+	@echo ... downloads.i
+	@echo ... downloads.s
+	@echo ... historyData.obj
+	@echo ... historyData.i
+	@echo ... historyData.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... parse.obj
 	@echo ... parse.i
 	@echo ... parse.s
+	@echo ... passwords.obj
+	@echo ... passwords.i
+	@echo ... passwords.s
 	@echo ... sqlite3.obj
 	@echo ... sqlite3.i
 	@echo ... sqlite3.s

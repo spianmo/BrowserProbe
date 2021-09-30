@@ -264,6 +264,101 @@ CMakeFiles\BrowserProbe.dir\parse.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BrowserProbe.dir\parse.cpp.s /c D:\CLionProjects\BrowserProbe\parse.cpp
 <<
 
+CMakeFiles\BrowserProbe.dir\cookies.cpp.obj: CMakeFiles\BrowserProbe.dir\flags.make
+CMakeFiles\BrowserProbe.dir\cookies.cpp.obj: ..\cookies.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BrowserProbe.dir/cookies.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\BrowserProbe.dir\cookies.cpp.obj /FdCMakeFiles\BrowserProbe.dir\ /FS -c D:\CLionProjects\BrowserProbe\cookies.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\cookies.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrowserProbe.dir/cookies.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" > CMakeFiles\BrowserProbe.dir\cookies.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\BrowserProbe\cookies.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\cookies.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/cookies.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BrowserProbe.dir\cookies.cpp.s /c D:\CLionProjects\BrowserProbe\cookies.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\historyData.cpp.obj: CMakeFiles\BrowserProbe.dir\flags.make
+CMakeFiles\BrowserProbe.dir\historyData.cpp.obj: ..\historyData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BrowserProbe.dir/historyData.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\BrowserProbe.dir\historyData.cpp.obj /FdCMakeFiles\BrowserProbe.dir\ /FS -c D:\CLionProjects\BrowserProbe\historyData.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\historyData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrowserProbe.dir/historyData.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" > CMakeFiles\BrowserProbe.dir\historyData.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\BrowserProbe\historyData.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\historyData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/historyData.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BrowserProbe.dir\historyData.cpp.s /c D:\CLionProjects\BrowserProbe\historyData.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\downloads.cpp.obj: CMakeFiles\BrowserProbe.dir\flags.make
+CMakeFiles\BrowserProbe.dir\downloads.cpp.obj: ..\downloads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BrowserProbe.dir/downloads.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\BrowserProbe.dir\downloads.cpp.obj /FdCMakeFiles\BrowserProbe.dir\ /FS -c D:\CLionProjects\BrowserProbe\downloads.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\downloads.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrowserProbe.dir/downloads.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" > CMakeFiles\BrowserProbe.dir\downloads.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\BrowserProbe\downloads.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\downloads.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/downloads.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BrowserProbe.dir\downloads.cpp.s /c D:\CLionProjects\BrowserProbe\downloads.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\passwords.cpp.obj: CMakeFiles\BrowserProbe.dir\flags.make
+CMakeFiles\BrowserProbe.dir\passwords.cpp.obj: ..\passwords.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BrowserProbe.dir/passwords.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\BrowserProbe.dir\passwords.cpp.obj /FdCMakeFiles\BrowserProbe.dir\ /FS -c D:\CLionProjects\BrowserProbe\passwords.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\passwords.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrowserProbe.dir/passwords.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" > CMakeFiles\BrowserProbe.dir\passwords.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\BrowserProbe\passwords.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\passwords.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/passwords.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BrowserProbe.dir\passwords.cpp.s /c D:\CLionProjects\BrowserProbe\passwords.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\creditCards.cpp.obj: CMakeFiles\BrowserProbe.dir\flags.make
+CMakeFiles\BrowserProbe.dir\creditCards.cpp.obj: ..\creditCards.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\BrowserProbe.dir\creditCards.cpp.obj /FdCMakeFiles\BrowserProbe.dir\ /FS -c D:\CLionProjects\BrowserProbe\creditCards.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\creditCards.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrowserProbe.dir/creditCards.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" > CMakeFiles\BrowserProbe.dir\creditCards.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\BrowserProbe\creditCards.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\creditCards.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/creditCards.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BrowserProbe.dir\creditCards.cpp.s /c D:\CLionProjects\BrowserProbe\creditCards.cpp
+<<
+
 # Object files for target BrowserProbe
 BrowserProbe_OBJECTS = \
 "CMakeFiles\BrowserProbe.dir\main.cpp.obj" \
@@ -276,7 +371,12 @@ BrowserProbe_OBJECTS = \
 "CMakeFiles\BrowserProbe.dir\utils.cpp.obj" \
 "CMakeFiles\BrowserProbe.dir\sqlite3.c.obj" \
 "CMakeFiles\BrowserProbe.dir\copy_dir.cpp.obj" \
-"CMakeFiles\BrowserProbe.dir\parse.cpp.obj"
+"CMakeFiles\BrowserProbe.dir\parse.cpp.obj" \
+"CMakeFiles\BrowserProbe.dir\cookies.cpp.obj" \
+"CMakeFiles\BrowserProbe.dir\historyData.cpp.obj" \
+"CMakeFiles\BrowserProbe.dir\downloads.cpp.obj" \
+"CMakeFiles\BrowserProbe.dir\passwords.cpp.obj" \
+"CMakeFiles\BrowserProbe.dir\creditCards.cpp.obj"
 
 # External object files for target BrowserProbe
 BrowserProbe_EXTERNAL_OBJECTS =
@@ -292,9 +392,14 @@ BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\utils.cpp.obj
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\sqlite3.c.obj
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\copy_dir.cpp.obj
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\parse.cpp.obj
+BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\cookies.cpp.obj
+BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\historyData.cpp.obj
+BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\downloads.cpp.obj
+BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\passwords.cpp.obj
+BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\creditCards.cpp.obj
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\build.make
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable BrowserProbe.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable BrowserProbe.exe"
 	"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\BrowserProbe.dir --rc="D:\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.19041.0\x64\mt.exe" --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\BrowserProbe.dir\objects1.rsp @<<
  /out:BrowserProbe.exe /implib:BrowserProbe.lib /pdb:D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\BrowserProbe.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

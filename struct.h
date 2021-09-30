@@ -17,19 +17,7 @@ struct loginData {
     time_t      CreateDate;
 };
 
-struct cookie{
-    string       Host;
-    string       Path;
-    string       KeyName;
-    char*       encryptValue;
-    string       Value;
-    bool         IsSecure;
-    bool         IsHTTPOnly;
-    bool         HasExpire;
-    bool         IsPersistent;
-    time_t       CreateDate;
-    time_t       ExpireDate;
-};
+
 struct history{
     string        Title;
     string        Url;

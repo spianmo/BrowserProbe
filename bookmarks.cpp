@@ -8,7 +8,7 @@ bookmarks::bookmarks(string main, string sub) {
     this->mainPath = std::move(main);
 }
 
-void bookmarks::ChromeParse(char key[]) {
+void bookmarks::ChromeParse(bytes secretKey) {
     ifstream i(ChromeBookmarkFile);
     json root;
     i >> root;
@@ -19,7 +19,7 @@ void bookmarks::ChromeParse(char key[]) {
 }
 
 void bookmarks::getBookmarkChildren(json j) {
-    Bookmark bm {
+    BrowserBookMark bm {
         .ID = j[bookmarkID].get<int64_t>(),
         .Name = j[bookmarkName].get<string>(),
         .URL = j[bookmarkUrl].get<string>(),
@@ -42,7 +42,7 @@ void bookmarks::FirefoxParse() {
     db.execute(closeJournalMode);
     auto bookmarkRows = db.execute<sqlite3_int64, string, sqlite3_int64, sqlite3_int64, string>(queryFirefoxBookMarks);
     for (const auto &[id, url, bType, dateAdded, title]:bookmarkRows) {
-        Bookmark bookmark = {id, title, BookMarkType(bType), url, dateAdded / 1000000};
+        BrowserBookMark bookmark = {id, title, BookMarkType(bType), url, dateAdded / 1000000};
         bookmarksData.push_back(bookmark);
     }
 }
