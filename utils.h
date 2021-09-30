@@ -9,6 +9,7 @@
 #include <fstream>
 #include <sstream>
 #include "copy_dir.h"
+#include "stringutil.h"
 
 using namespace std;
 
@@ -18,7 +19,7 @@ string BookMarkType(int64_t type);
 time_t TimeStampFormat(int64_t stamp);
 time_t TimeEpochFormat(int64_t epoch);
 void copyToLocalPath(const string& src,const string& dst);
-string filepathBase(const string& filepath);
-string FormatFileName(string dir,string browser,string filename,string format);
+string FilePathBase(const string& filepath);
+string FormatFileName(const string &dir, const string &browser, const string &filename, const string &format);
 
 #endif //BROWSERPROBE_UTILS_H

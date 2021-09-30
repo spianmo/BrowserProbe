@@ -25,6 +25,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/CLionProjects/BrowserProbe/cJSON.cpp" "D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/CMakeFiles/BrowserProbe.dir/cJSON.cpp.obj"
   "D:/CLionProjects/BrowserProbe/copy_dir.cpp" "D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj"
   "D:/CLionProjects/BrowserProbe/main.cpp" "D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/CMakeFiles/BrowserProbe.dir/main.cpp.obj"
+  "D:/CLionProjects/BrowserProbe/parse.cpp" "D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/CMakeFiles/BrowserProbe.dir/parse.cpp.obj"
   "D:/CLionProjects/BrowserProbe/utils.cpp" "D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/CMakeFiles/BrowserProbe.dir/utils.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -245,6 +245,25 @@ CMakeFiles\BrowserProbe.dir\copy_dir.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BrowserProbe.dir\copy_dir.cpp.s /c D:\CLionProjects\BrowserProbe\copy_dir.cpp
 <<
 
+CMakeFiles\BrowserProbe.dir\parse.cpp.obj: CMakeFiles\BrowserProbe.dir\flags.make
+CMakeFiles\BrowserProbe.dir\parse.cpp.obj: ..\parse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BrowserProbe.dir/parse.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\BrowserProbe.dir\parse.cpp.obj /FdCMakeFiles\BrowserProbe.dir\ /FS -c D:\CLionProjects\BrowserProbe\parse.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\parse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrowserProbe.dir/parse.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" > CMakeFiles\BrowserProbe.dir\parse.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\BrowserProbe\parse.cpp
+<<
+
+CMakeFiles\BrowserProbe.dir\parse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/parse.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BrowserProbe.dir\parse.cpp.s /c D:\CLionProjects\BrowserProbe\parse.cpp
+<<
+
 # Object files for target BrowserProbe
 BrowserProbe_OBJECTS = \
 "CMakeFiles\BrowserProbe.dir\main.cpp.obj" \
@@ -256,7 +275,8 @@ BrowserProbe_OBJECTS = \
 "CMakeFiles\BrowserProbe.dir\browser_factory.cpp.obj" \
 "CMakeFiles\BrowserProbe.dir\utils.cpp.obj" \
 "CMakeFiles\BrowserProbe.dir\sqlite3.c.obj" \
-"CMakeFiles\BrowserProbe.dir\copy_dir.cpp.obj"
+"CMakeFiles\BrowserProbe.dir\copy_dir.cpp.obj" \
+"CMakeFiles\BrowserProbe.dir\parse.cpp.obj"
 
 # External object files for target BrowserProbe
 BrowserProbe_EXTERNAL_OBJECTS =
@@ -271,9 +291,10 @@ BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\browser_factory.cpp.obj
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\utils.cpp.obj
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\sqlite3.c.obj
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\copy_dir.cpp.obj
+BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\parse.cpp.obj
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\build.make
 BrowserProbe.exe: CMakeFiles\BrowserProbe.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable BrowserProbe.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable BrowserProbe.exe"
 	"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\BrowserProbe.dir --rc="D:\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.19041.0\x64\mt.exe" --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\BrowserProbe.dir\objects1.rsp @<<
  /out:BrowserProbe.exe /implib:BrowserProbe.lib /pdb:D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\BrowserProbe.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

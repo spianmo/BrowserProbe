@@ -310,6 +310,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+parse.obj: parse.cpp.obj
+.PHONY : parse.obj
+
+# target to build an object file
+parse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\parse.cpp.obj
+.PHONY : parse.cpp.obj
+
+parse.i: parse.cpp.i
+.PHONY : parse.i
+
+# target to preprocess a source file
+parse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\parse.cpp.i
+.PHONY : parse.cpp.i
+
+parse.s: parse.cpp.s
+.PHONY : parse.s
+
+# target to generate assembly for a file
+parse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\parse.cpp.s
+.PHONY : parse.cpp.s
+
 sqlite3.obj: sqlite3.c.obj
 .PHONY : sqlite3.obj
 
@@ -391,6 +415,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... parse.obj
+	@echo ... parse.i
+	@echo ... parse.s
 	@echo ... sqlite3.obj
 	@echo ... sqlite3.i
 	@echo ... sqlite3.s

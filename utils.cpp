@@ -30,16 +30,29 @@ time_t TimeEpochFormat(int64_t epoch) {
     return static_cast<time_t>(epoch);
 }
 
-void copyToLocalPath(const string& src,const string& dst){
+void copyToLocalPath(const string &src, const string &dst) {
     CopyDir copyDir;
-    copyDir.copy(src,dst);
+    copyDir.copy(src, dst);
 }
 
-string filepathBase(const string& filepath){
-    int pos = filepath.find_last_of('/') + 1;
-    return filepath.substr(pos);
+string FilePathBase(const string &filename)
+{
+#ifdef __linux__
+    const string slash = "/";
+#elif _WIN32
+    const string slash = "\\";
+#endif
+    size_t lastDotPosition = filename.find_last_of('.');
+    size_t lastSlashPosition = filename.find_last_of(slash);
+
+    if (lastDotPosition != string::npos && lastSlashPosition != string::npos && lastDotPosition > lastSlashPosition)
+        return filename.substr(lastSlashPosition + 1, lastDotPosition - lastSlashPosition - 1);
+    else
+        return string();
 }
 
-string FormatFileName(string dir,string browser,string filename,string format){
-
+string FormatFileName(const string &dir, const string &browser, const string &filename, const string &format) {
+    string r = ReplaceAll(Trim(ToLower(browser)), " ", "_");
+    string p = dir + Format("%s_%s.%s", r.c_str(), filename.c_str(), format.c_str());
+    return p;
 }

@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BrowserProbe.dir/cJSON.cpp.obj"
   "CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj"
   "CMakeFiles/BrowserProbe.dir/main.cpp.obj"
+  "CMakeFiles/BrowserProbe.dir/parse.cpp.obj"
   "CMakeFiles/BrowserProbe.dir/sqlite3.c.obj"
   "CMakeFiles/BrowserProbe.dir/utils.cpp.obj"
   "libBrowserProbe.dll.a"

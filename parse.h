@@ -9,7 +9,6 @@
 #include <utility>
 #include "struct.h"
 #include "utils.h"
-#include "cJSON.h"
 
 #define ChromeCreditFile   "Web Data"
 #define ChromePasswordFile "Login Data"
@@ -59,19 +58,11 @@ public:
     void Release() const;
 
 private:
-    virtual void outPutJson(string basicString, string string1) = 0;
+    virtual void outPutJson(string browser, string dir) = 0;
 
-    virtual void outPutCsv(string basicString, string string1) = 0;
+    virtual void outPutCsv(string browser, string dir) = 0;
 
-    virtual void outPutConsole(string basicString, string string1) = 0;
+    virtual void outPutConsole(string browser, string dir) = 0;
 };
-
-void Item::CopyDB() const {
-    copyToLocalPath(mainPath, filepathBase(mainPath));
-}
-
-void Item::Release() const {
-    remove(filepathBase(mainPath).c_str());
-}
 
 #endif //BROWSERPROBE_PARSE_H

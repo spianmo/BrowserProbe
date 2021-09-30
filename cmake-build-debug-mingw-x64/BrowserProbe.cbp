@@ -128,6 +128,9 @@
 		<Unit filename="D:/CLionProjects/BrowserProbe/main.cpp">
 			<Option target="BrowserProbe"/>
 		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/parse.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/parse.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
@@ -138,6 +141,9 @@
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/sqlitelib.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/stringutil.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/struct.h">

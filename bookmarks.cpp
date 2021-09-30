@@ -9,8 +9,9 @@ bookmarks::bookmarks(string main, string sub) {
 }
 
 void bookmarks::ChromeParse(char key[]) {
-    string bookmarks = ReadFile(ChromeBookmarkFile);
-    json root = json::parse(bookmarks);
+    ifstream i(ChromeBookmarkFile);
+    json root;
+    i >> root;
     array arrayObj = root["roots"];
     for (auto& element : arrayObj) {
         getBookmarkChildren(element);
@@ -61,8 +62,9 @@ void bookmarks::OutPut(OutputType format, string browser, string dir) {
 }
 
 void bookmarks::outPutJson(string browser, string dir) {
+    string filename = FormatFileName(dir, browser, "bookmark", "json");
     json jsonObject = bookmarksData;
-    WriteFile("bookmark.json", jsonObject.dump(4).c_str());
+    WriteFile(filename, jsonObject.dump(4).c_str());
 }
 
 void bookmarks::outPutCsv(string browser, string dir) {
