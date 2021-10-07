@@ -1,0 +1,28 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/CLionProjects/BrowserProbe/cmake-build-debug-visual-studio-x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_0e6b8\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\nmake.exe"  -f CMakeFiles\cmTC_0e6b8.dir\build.make /nologo -L                  CMakeFiles\cmTC_0e6b8.dir\build
+Building C object CMakeFiles/cmTC_0e6b8.dir/CMakeCCompilerABI.c.obj
+	"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_0e6b8.dir\CMakeCCompilerABI.c.obj.d --working-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles\CMakeTmp --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x64\cl.exe" @C:\Users\Finger\AppData\Local\Temp\nmC9D8.tmp
+NMAKE : fatal error U1077: “"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"”: 返回代码“0xc0000409”
+Stop.
+NMAKE : fatal error U1077: “"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\nmake.exe"”: 返回代码“0x2”
+Stop.
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: D:/CLionProjects/BrowserProbe/cmake-build-debug-visual-studio-x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_6bfd6\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\nmake.exe"  -f CMakeFiles\cmTC_6bfd6.dir\build.make /nologo -L                  CMakeFiles\cmTC_6bfd6.dir\build
+Building CXX object CMakeFiles/cmTC_6bfd6.dir/CMakeCXXCompilerABI.cpp.obj
+	"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_6bfd6.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles\CMakeTmp --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x64\cl.exe" @C:\Users\Finger\AppData\Local\Temp\nmD263.tmp
+NMAKE : fatal error U1077: “"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"”: 返回代码“0xc0000409”
+Stop.
+NMAKE : fatal error U1077: “"D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\nmake.exe"”: 返回代码“0x2”
+Stop.
+
+
+
+

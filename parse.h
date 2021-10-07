@@ -7,7 +7,6 @@
 
 #include <string>
 #include <utility>
-#include "struct.h"
 #include "utils.h"
 
 #define ChromeCreditFile   "Web Data"

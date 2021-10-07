@@ -13,11 +13,10 @@
 
 using namespace std;
 
-string ReadFile(string filename);
-void WriteFile(string filename,const char data[]);
 string BookMarkType(int64_t type);
 time_t TimeStampFormat(int64_t stamp);
 time_t TimeEpochFormat(int64_t epoch);
+string TimeFormat(time_t tmt);
 void copyToLocalPath(const string& src,const string& dst);
 string FilePathBase(const string& filepath);
 string FormatFileName(const string &dir, const string &browser, const string &filename, const string &format);

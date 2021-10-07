@@ -24,8 +24,8 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
-					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
 					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
@@ -47,8 +47,8 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
-					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
 					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
@@ -94,6 +94,9 @@
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/Firefox.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/base64.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/bookmarks.cpp">
@@ -178,9 +181,6 @@
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/stringutil.h">
-			<Option target="BrowserProbe"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/struct.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/utils.cpp">
