@@ -52,6 +52,7 @@ CMAKE_BINARY_DIR = D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles\sqlite3.dir\all
 all: CMakeFiles\BrowserProbe.dir\all
 .PHONY : all
 
@@ -60,22 +61,49 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles\sqlite3.dir\clean
 clean: CMakeFiles\BrowserProbe.dir\clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sqlite3.dir
+
+# All Build rule for target.
+CMakeFiles\sqlite3.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sqlite3.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sqlite3.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=17,18 "Built target sqlite3"
+.PHONY : CMakeFiles\sqlite3.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\sqlite3.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\sqlite3.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles 0
+.PHONY : CMakeFiles\sqlite3.dir\rule
+
+# Convenience name for target.
+sqlite3: CMakeFiles\sqlite3.dir\rule
+.PHONY : sqlite3
+
+# clean rule for target.
+CMakeFiles\sqlite3.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sqlite3.dir\clean
+.PHONY : CMakeFiles\sqlite3.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/BrowserProbe.dir
 
 # All Build rule for target.
-CMakeFiles\BrowserProbe.dir\all:
+CMakeFiles\BrowserProbe.dir\all: CMakeFiles\sqlite3.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target BrowserProbe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target BrowserProbe"
 .PHONY : CMakeFiles\BrowserProbe.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\BrowserProbe.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\CMakeFiles 0
 .PHONY : CMakeFiles\BrowserProbe.dir\rule

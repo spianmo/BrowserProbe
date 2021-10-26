@@ -19,7 +19,7 @@ typedef struct cookie {
     string Host;
     string Path;
     string KeyName;
-    bytes encryptValue;
+    uint8_t* encryptValue;
     string Value;
     bool IsSecure;
     bool IsHTTPOnly;
@@ -40,7 +40,7 @@ public:
 
     cookies(string main, string sub);
 
-    void ChromeParse(bytes secretKey) override;
+    void ChromeParse(uint8_t* secretKey) override;
 
     void FirefoxParse() override;
 

@@ -1,3 +1,4 @@
+D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x86/CMakeFiles/sqlite3.dir
 D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x86/CMakeFiles/BrowserProbe.dir
 D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x86/CMakeFiles/edit_cache.dir
 D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x86/CMakeFiles/rebuild_cache.dir

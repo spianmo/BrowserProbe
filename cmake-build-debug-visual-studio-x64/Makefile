@@ -106,6 +106,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sqlite3
+
+# Build rule for target.
+sqlite3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) sqlite3
+.PHONY : sqlite3
+
+# fast build rule for target.
+sqlite3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sqlite3.dir\build
+.PHONY : sqlite3\fast
+
+#=============================================================================
 # Target rules for targets named BrowserProbe
 
 # Build rule for target.
@@ -238,30 +251,6 @@ browser_factory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\browser_factory.cpp.s
 .PHONY : browser_factory.cpp.s
 
-cJSON.obj: cJSON.cpp.obj
-.PHONY : cJSON.obj
-
-# target to build an object file
-cJSON.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\cJSON.cpp.obj
-.PHONY : cJSON.cpp.obj
-
-cJSON.i: cJSON.cpp.i
-.PHONY : cJSON.i
-
-# target to preprocess a source file
-cJSON.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\cJSON.cpp.i
-.PHONY : cJSON.cpp.i
-
-cJSON.s: cJSON.cpp.s
-.PHONY : cJSON.s
-
-# target to generate assembly for a file
-cJSON.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\cJSON.cpp.s
-.PHONY : cJSON.cpp.s
-
 cookies.obj: cookies.cpp.obj
 .PHONY : cookies.obj
 
@@ -333,6 +322,30 @@ creditCards.s: creditCards.cpp.s
 creditCards.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\creditCards.cpp.s
 .PHONY : creditCards.cpp.s
+
+decrypt.obj: decrypt.cpp.obj
+.PHONY : decrypt.obj
+
+# target to build an object file
+decrypt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\decrypt.cpp.obj
+.PHONY : decrypt.cpp.obj
+
+decrypt.i: decrypt.cpp.i
+.PHONY : decrypt.i
+
+# target to preprocess a source file
+decrypt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\decrypt.cpp.i
+.PHONY : decrypt.cpp.i
+
+decrypt.s: decrypt.cpp.s
+.PHONY : decrypt.s
+
+# target to generate assembly for a file
+decrypt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\decrypt.cpp.s
+.PHONY : decrypt.cpp.s
 
 downloads.obj: downloads.cpp.obj
 .PHONY : downloads.obj
@@ -454,30 +467,6 @@ passwords.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\passwords.cpp.s
 .PHONY : passwords.cpp.s
 
-sqlite3.obj: sqlite3.c.obj
-.PHONY : sqlite3.obj
-
-# target to build an object file
-sqlite3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\sqlite3.c.obj
-.PHONY : sqlite3.c.obj
-
-sqlite3.i: sqlite3.c.i
-.PHONY : sqlite3.i
-
-# target to preprocess a source file
-sqlite3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\sqlite3.c.i
-.PHONY : sqlite3.c.i
-
-sqlite3.s: sqlite3.c.s
-.PHONY : sqlite3.s
-
-# target to generate assembly for a file
-sqlite3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\sqlite3.c.s
-.PHONY : sqlite3.c.s
-
 utils.obj: utils.cpp.obj
 .PHONY : utils.obj
 
@@ -502,6 +491,30 @@ utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrowserProbe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BrowserProbe.dir\utils.cpp.s
 .PHONY : utils.cpp.s
 
+vendor\sqlite3\sqlite3.obj: vendor\sqlite3\sqlite3.c.obj
+.PHONY : vendor\sqlite3\sqlite3.obj
+
+# target to build an object file
+vendor\sqlite3\sqlite3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sqlite3.dir\vendor\sqlite3\sqlite3.c.obj
+.PHONY : vendor\sqlite3\sqlite3.c.obj
+
+vendor\sqlite3\sqlite3.i: vendor\sqlite3\sqlite3.c.i
+.PHONY : vendor\sqlite3\sqlite3.i
+
+# target to preprocess a source file
+vendor\sqlite3\sqlite3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sqlite3.dir\vendor\sqlite3\sqlite3.c.i
+.PHONY : vendor\sqlite3\sqlite3.c.i
+
+vendor\sqlite3\sqlite3.s: vendor\sqlite3\sqlite3.c.s
+.PHONY : vendor\sqlite3\sqlite3.s
+
+# target to generate assembly for a file
+vendor\sqlite3\sqlite3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sqlite3.dir\vendor\sqlite3\sqlite3.c.s
+.PHONY : vendor\sqlite3\sqlite3.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -511,6 +524,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BrowserProbe
+	@echo ... sqlite3
 	@echo ... Chromium.obj
 	@echo ... Chromium.i
 	@echo ... Chromium.s
@@ -526,9 +540,6 @@ help:
 	@echo ... browser_factory.obj
 	@echo ... browser_factory.i
 	@echo ... browser_factory.s
-	@echo ... cJSON.obj
-	@echo ... cJSON.i
-	@echo ... cJSON.s
 	@echo ... cookies.obj
 	@echo ... cookies.i
 	@echo ... cookies.s
@@ -538,6 +549,9 @@ help:
 	@echo ... creditCards.obj
 	@echo ... creditCards.i
 	@echo ... creditCards.s
+	@echo ... decrypt.obj
+	@echo ... decrypt.i
+	@echo ... decrypt.s
 	@echo ... downloads.obj
 	@echo ... downloads.i
 	@echo ... downloads.s
@@ -553,12 +567,12 @@ help:
 	@echo ... passwords.obj
 	@echo ... passwords.i
 	@echo ... passwords.s
-	@echo ... sqlite3.obj
-	@echo ... sqlite3.i
-	@echo ... sqlite3.s
 	@echo ... utils.obj
 	@echo ... utils.i
 	@echo ... utils.s
+	@echo ... vendor/sqlite3/sqlite3.obj
+	@echo ... vendor/sqlite3/sqlite3.i
+	@echo ... vendor/sqlite3/sqlite3.s
 .PHONY : help
 
 

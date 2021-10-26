@@ -8,7 +8,7 @@ bookmarks::bookmarks(string main, string sub) {
     this->mainPath = std::move(main);
 }
 
-void bookmarks::ChromeParse(bytes secretKey) {
+void bookmarks::ChromeParse(uint8_t* secretKey) {
     ifstream i(ChromeBookmarkFile);
     json root;
     i >> root;

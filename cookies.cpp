@@ -8,9 +8,9 @@ cookies::cookies(string main, string sub) {
     this->mainPath = std::move(main);
 }
 
-void cookies::ChromeParse(bytes secretKey) {
+void cookies::ChromeParse(uint8_t* secretKey) {
     auto db = sqlitelib::Sqlite(ChromeCookieFile);
-    auto rows = db.execute<string, bytes, string, string, sqlite_int64, sqlite_int64, int, int, int, int>(
+    auto rows = db.execute<string, uint8_t*, string, string, sqlite_int64, sqlite_int64, int, int, int, int>(
             queryChromiumCookie);
     for (const auto &[key, encryptValue, host, path, createDate, expireDate, isSecure, isHttpOnly, hasExpire, isPersistent]:rows) {
         BrowserCookie cookie = {

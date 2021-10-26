@@ -33,7 +33,7 @@ public:
 
     historyData(string main, string sub);
 
-    void ChromeParse(bytes secretKey) override;
+    void ChromeParse(uint8_t* secretKey) override;
 
     void FirefoxParse() override;
 

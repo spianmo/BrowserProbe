@@ -8,7 +8,7 @@ downloads::downloads(string main, string sub) {
     this->mainPath = std::move(main);
 }
 
-void downloads::ChromeParse(bytes secretKey) {
+void downloads::ChromeParse(uint8_t* secretKey) {
     auto db = sqlitelib::Sqlite(ChromeDownloadFile);
     auto rows = db.execute<string, string, sqlite_int64, sqlite_int64, sqlite_int64, string>(
             queryChromiumDownload);

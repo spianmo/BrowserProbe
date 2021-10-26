@@ -28,6 +28,11 @@ int main() {
     auto jsonObj = j_complete.find("Image");
     cout << jsonObj->dump(4) << endl;
 
+    uint8_t encryptPass[] = {0x99,0x11,0x34,0x99,0x11,0x34,0x99,0x11,0x34,0x34,0x0};
+    cout << strlen(reinterpret_cast<const char *>(encryptPass)) << endl;
+
+
+
 #ifdef __GNUC__
     std::cout << "__WINDOWS_" << std::endl;
 #endif

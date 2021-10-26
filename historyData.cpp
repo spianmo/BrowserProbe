@@ -8,7 +8,7 @@ historyData::historyData(string main, string sub) {
     this->mainPath = std::move(main);
 }
 
-void historyData::ChromeParse(bytes secretKey) {
+void historyData::ChromeParse(uint8_t* secretKey) {
     auto db = sqlitelib::Sqlite(ChromeHistoryFile);
     auto rows = db.execute<string, string, int, sqlite_int64>(
             queryChromiumHistory);

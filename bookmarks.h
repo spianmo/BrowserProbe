@@ -11,6 +11,7 @@
 #include <vector>
 #include "sqlitelib.h"
 #include "json.hpp"
+#include "decrypt.h"
 
 using namespace std;
 using namespace nlohmann;
@@ -33,7 +34,7 @@ public:
 
     bookmarks(string main, string sub);
 
-    void ChromeParse(bytes secretKey) override;
+    void ChromeParse(uint8_t* secretKey) override;
 
     void FirefoxParse() override;
 

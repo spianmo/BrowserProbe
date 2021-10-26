@@ -17,6 +17,60 @@
 					<DistClean command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="sqlite3">
+				<Option output="D:/CLionProjects/BrowserProbe/cmake-build-debug-visual-studio-x64/sqlite3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProjects/BrowserProbe/cmake-build-debug-visual-studio-x64"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/CLionProjects/BrowserProbe/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/openssl"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/openssl/include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 sqlite3"/>
+					<CompileFile command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite3/fast">
+				<Option output="D:/CLionProjects/BrowserProbe/cmake-build-debug-visual-studio-x64/sqlite3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProjects/BrowserProbe/cmake-build-debug-visual-studio-x64"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/CLionProjects/BrowserProbe/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/openssl"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/openssl/include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 sqlite3/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\CLionProjects\BrowserProbe\cmake-build-debug-visual-studio-x64\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="BrowserProbe">
 				<Option output="D:/CLionProjects/BrowserProbe/cmake-build-debug-visual-studio-x64/BrowserProbe.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/CLionProjects/BrowserProbe/cmake-build-debug-visual-studio-x64"/>
@@ -24,6 +78,10 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="D:/CLionProjects/BrowserProbe/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/openssl"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/openssl/include"/>
 					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
 					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -47,6 +105,10 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="D:/CLionProjects/BrowserProbe/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/openssl"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/openssl/include"/>
 					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
 					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -117,12 +179,6 @@
 		<Unit filename="D:/CLionProjects/BrowserProbe/browser_factory.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/cJSON.cpp">
-			<Option target="BrowserProbe"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/cJSON.h">
-			<Option target="BrowserProbe"/>
-		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/cookies.cpp">
 			<Option target="BrowserProbe"/>
 		</Unit>
@@ -139,6 +195,12 @@
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/creditCards.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/decrypt.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/decrypt.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/downloads.cpp">
@@ -171,12 +233,6 @@
 		<Unit filename="D:/CLionProjects/BrowserProbe/passwords.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/sqlite3.c">
-			<Option target="BrowserProbe"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/sqlite3.h">
-			<Option target="BrowserProbe"/>
-		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/sqlitelib.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
@@ -188,6 +244,12 @@
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/utils.h">
 			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/vendor/sqlite3/sqlite3.c">
+			<Option target="sqlite3"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/vendor/sqlite3/sqlite3.h">
+			<Option target="sqlite3"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

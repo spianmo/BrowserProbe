@@ -66,6 +66,7 @@ include CMakeFiles/BrowserProbe.dir/progress.make
 include CMakeFiles/BrowserProbe.dir/flags.make
 
 CMakeFiles/BrowserProbe.dir/main.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/main.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BrowserProbe.dir/main.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\main.cpp.obj -c D:\CLionProjects\BrowserProbe\main.cpp
@@ -78,22 +79,10 @@ CMakeFiles/BrowserProbe.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/main.cpp.s"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\main.cpp -o CMakeFiles\BrowserProbe.dir\main.cpp.s
 
-CMakeFiles/BrowserProbe.dir/cJSON.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
-CMakeFiles/BrowserProbe.dir/cJSON.cpp.obj: ../cJSON.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BrowserProbe.dir/cJSON.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\cJSON.cpp.obj -c D:\CLionProjects\BrowserProbe\cJSON.cpp
-
-CMakeFiles/BrowserProbe.dir/cJSON.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrowserProbe.dir/cJSON.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\BrowserProbe\cJSON.cpp > CMakeFiles\BrowserProbe.dir\cJSON.cpp.i
-
-CMakeFiles/BrowserProbe.dir/cJSON.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/cJSON.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\cJSON.cpp -o CMakeFiles\BrowserProbe.dir\cJSON.cpp.s
-
 CMakeFiles/BrowserProbe.dir/bookmarks.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/bookmarks.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/bookmarks.cpp.obj: ../bookmarks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BrowserProbe.dir/bookmarks.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BrowserProbe.dir/bookmarks.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\bookmarks.cpp.obj -c D:\CLionProjects\BrowserProbe\bookmarks.cpp
 
 CMakeFiles/BrowserProbe.dir/bookmarks.cpp.i: cmake_force
@@ -105,8 +94,9 @@ CMakeFiles/BrowserProbe.dir/bookmarks.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\bookmarks.cpp -o CMakeFiles\BrowserProbe.dir\bookmarks.cpp.s
 
 CMakeFiles/BrowserProbe.dir/Chromium.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/Chromium.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/Chromium.cpp.obj: ../Chromium.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BrowserProbe.dir/Chromium.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BrowserProbe.dir/Chromium.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\Chromium.cpp.obj -c D:\CLionProjects\BrowserProbe\Chromium.cpp
 
 CMakeFiles/BrowserProbe.dir/Chromium.cpp.i: cmake_force
@@ -118,8 +108,9 @@ CMakeFiles/BrowserProbe.dir/Chromium.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\Chromium.cpp -o CMakeFiles\BrowserProbe.dir\Chromium.cpp.s
 
 CMakeFiles/BrowserProbe.dir/Firefox.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/Firefox.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/Firefox.cpp.obj: ../Firefox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BrowserProbe.dir/Firefox.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BrowserProbe.dir/Firefox.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\Firefox.cpp.obj -c D:\CLionProjects\BrowserProbe\Firefox.cpp
 
 CMakeFiles/BrowserProbe.dir/Firefox.cpp.i: cmake_force
@@ -131,8 +122,9 @@ CMakeFiles/BrowserProbe.dir/Firefox.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\Firefox.cpp -o CMakeFiles\BrowserProbe.dir\Firefox.cpp.s
 
 CMakeFiles/BrowserProbe.dir/browser.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/browser.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/browser.cpp.obj: ../browser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BrowserProbe.dir/browser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BrowserProbe.dir/browser.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\browser.cpp.obj -c D:\CLionProjects\BrowserProbe\browser.cpp
 
 CMakeFiles/BrowserProbe.dir/browser.cpp.i: cmake_force
@@ -144,8 +136,9 @@ CMakeFiles/BrowserProbe.dir/browser.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\browser.cpp -o CMakeFiles\BrowserProbe.dir\browser.cpp.s
 
 CMakeFiles/BrowserProbe.dir/browser_factory.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/browser_factory.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/browser_factory.cpp.obj: ../browser_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BrowserProbe.dir/browser_factory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BrowserProbe.dir/browser_factory.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\browser_factory.cpp.obj -c D:\CLionProjects\BrowserProbe\browser_factory.cpp
 
 CMakeFiles/BrowserProbe.dir/browser_factory.cpp.i: cmake_force
@@ -157,8 +150,9 @@ CMakeFiles/BrowserProbe.dir/browser_factory.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\browser_factory.cpp -o CMakeFiles\BrowserProbe.dir\browser_factory.cpp.s
 
 CMakeFiles/BrowserProbe.dir/utils.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/utils.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/utils.cpp.obj: ../utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BrowserProbe.dir/utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BrowserProbe.dir/utils.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\utils.cpp.obj -c D:\CLionProjects\BrowserProbe\utils.cpp
 
 CMakeFiles/BrowserProbe.dir/utils.cpp.i: cmake_force
@@ -169,22 +163,10 @@ CMakeFiles/BrowserProbe.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/utils.cpp.s"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\utils.cpp -o CMakeFiles\BrowserProbe.dir\utils.cpp.s
 
-CMakeFiles/BrowserProbe.dir/sqlite3.c.obj: CMakeFiles/BrowserProbe.dir/flags.make
-CMakeFiles/BrowserProbe.dir/sqlite3.c.obj: ../sqlite3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BrowserProbe.dir/sqlite3.c.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BrowserProbe.dir\sqlite3.c.obj -c D:\CLionProjects\BrowserProbe\sqlite3.c
-
-CMakeFiles/BrowserProbe.dir/sqlite3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BrowserProbe.dir/sqlite3.c.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CLionProjects\BrowserProbe\sqlite3.c > CMakeFiles\BrowserProbe.dir\sqlite3.c.i
-
-CMakeFiles/BrowserProbe.dir/sqlite3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BrowserProbe.dir/sqlite3.c.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CLionProjects\BrowserProbe\sqlite3.c -o CMakeFiles\BrowserProbe.dir\sqlite3.c.s
-
 CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj: ../copy_dir.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\copy_dir.cpp.obj -c D:\CLionProjects\BrowserProbe\copy_dir.cpp
 
 CMakeFiles/BrowserProbe.dir/copy_dir.cpp.i: cmake_force
@@ -196,8 +178,9 @@ CMakeFiles/BrowserProbe.dir/copy_dir.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\copy_dir.cpp -o CMakeFiles\BrowserProbe.dir\copy_dir.cpp.s
 
 CMakeFiles/BrowserProbe.dir/parse.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/parse.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/parse.cpp.obj: ../parse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BrowserProbe.dir/parse.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BrowserProbe.dir/parse.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\parse.cpp.obj -c D:\CLionProjects\BrowserProbe\parse.cpp
 
 CMakeFiles/BrowserProbe.dir/parse.cpp.i: cmake_force
@@ -209,8 +192,9 @@ CMakeFiles/BrowserProbe.dir/parse.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\parse.cpp -o CMakeFiles\BrowserProbe.dir\parse.cpp.s
 
 CMakeFiles/BrowserProbe.dir/cookies.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/cookies.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/cookies.cpp.obj: ../cookies.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BrowserProbe.dir/cookies.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BrowserProbe.dir/cookies.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\cookies.cpp.obj -c D:\CLionProjects\BrowserProbe\cookies.cpp
 
 CMakeFiles/BrowserProbe.dir/cookies.cpp.i: cmake_force
@@ -222,8 +206,9 @@ CMakeFiles/BrowserProbe.dir/cookies.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\cookies.cpp -o CMakeFiles\BrowserProbe.dir\cookies.cpp.s
 
 CMakeFiles/BrowserProbe.dir/historyData.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/historyData.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/historyData.cpp.obj: ../historyData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BrowserProbe.dir/historyData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BrowserProbe.dir/historyData.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\historyData.cpp.obj -c D:\CLionProjects\BrowserProbe\historyData.cpp
 
 CMakeFiles/BrowserProbe.dir/historyData.cpp.i: cmake_force
@@ -235,8 +220,9 @@ CMakeFiles/BrowserProbe.dir/historyData.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\historyData.cpp -o CMakeFiles\BrowserProbe.dir\historyData.cpp.s
 
 CMakeFiles/BrowserProbe.dir/downloads.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/downloads.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/downloads.cpp.obj: ../downloads.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BrowserProbe.dir/downloads.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BrowserProbe.dir/downloads.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\downloads.cpp.obj -c D:\CLionProjects\BrowserProbe\downloads.cpp
 
 CMakeFiles/BrowserProbe.dir/downloads.cpp.i: cmake_force
@@ -248,8 +234,9 @@ CMakeFiles/BrowserProbe.dir/downloads.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\downloads.cpp -o CMakeFiles\BrowserProbe.dir\downloads.cpp.s
 
 CMakeFiles/BrowserProbe.dir/passwords.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/passwords.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/passwords.cpp.obj: ../passwords.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BrowserProbe.dir/passwords.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BrowserProbe.dir/passwords.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\passwords.cpp.obj -c D:\CLionProjects\BrowserProbe\passwords.cpp
 
 CMakeFiles/BrowserProbe.dir/passwords.cpp.i: cmake_force
@@ -261,8 +248,9 @@ CMakeFiles/BrowserProbe.dir/passwords.cpp.s: cmake_force
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\passwords.cpp -o CMakeFiles\BrowserProbe.dir\passwords.cpp.s
 
 CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
 CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj: ../creditCards.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\creditCards.cpp.obj -c D:\CLionProjects\BrowserProbe\creditCards.cpp
 
 CMakeFiles/BrowserProbe.dir/creditCards.cpp.i: cmake_force
@@ -273,37 +261,48 @@ CMakeFiles/BrowserProbe.dir/creditCards.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/creditCards.cpp.s"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\creditCards.cpp -o CMakeFiles\BrowserProbe.dir\creditCards.cpp.s
 
+CMakeFiles/BrowserProbe.dir/decrypt.cpp.obj: CMakeFiles/BrowserProbe.dir/flags.make
+CMakeFiles/BrowserProbe.dir/decrypt.cpp.obj: CMakeFiles/BrowserProbe.dir/includes_CXX.rsp
+CMakeFiles/BrowserProbe.dir/decrypt.cpp.obj: ../decrypt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BrowserProbe.dir/decrypt.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BrowserProbe.dir\decrypt.cpp.obj -c D:\CLionProjects\BrowserProbe\decrypt.cpp
+
+CMakeFiles/BrowserProbe.dir/decrypt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrowserProbe.dir/decrypt.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\BrowserProbe\decrypt.cpp > CMakeFiles\BrowserProbe.dir\decrypt.cpp.i
+
+CMakeFiles/BrowserProbe.dir/decrypt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrowserProbe.dir/decrypt.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\BrowserProbe\decrypt.cpp -o CMakeFiles\BrowserProbe.dir\decrypt.cpp.s
+
 # Object files for target BrowserProbe
 BrowserProbe_OBJECTS = \
 "CMakeFiles/BrowserProbe.dir/main.cpp.obj" \
-"CMakeFiles/BrowserProbe.dir/cJSON.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/bookmarks.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/Chromium.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/Firefox.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/browser.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/browser_factory.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/utils.cpp.obj" \
-"CMakeFiles/BrowserProbe.dir/sqlite3.c.obj" \
 "CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/parse.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/cookies.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/historyData.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/downloads.cpp.obj" \
 "CMakeFiles/BrowserProbe.dir/passwords.cpp.obj" \
-"CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj"
+"CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj" \
+"CMakeFiles/BrowserProbe.dir/decrypt.cpp.obj"
 
 # External object files for target BrowserProbe
 BrowserProbe_EXTERNAL_OBJECTS =
 
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/main.cpp.obj
-BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/cJSON.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/bookmarks.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/Chromium.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/Firefox.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/browser.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/browser_factory.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/utils.cpp.obj
-BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/sqlite3.c.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/copy_dir.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/parse.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/cookies.cpp.obj
@@ -311,11 +310,14 @@ BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/historyData.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/downloads.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/passwords.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/creditCards.cpp.obj
+BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/decrypt.cpp.obj
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/build.make
+BrowserProbe.exe: ../vendor/openssl/lib
+BrowserProbe.exe: libsqlite3.a
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/linklibs.rsp
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/objects1.rsp
 BrowserProbe.exe: CMakeFiles/BrowserProbe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable BrowserProbe.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\BrowserProbe\cmake-build-debug-mingw-x86\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable BrowserProbe.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BrowserProbe.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

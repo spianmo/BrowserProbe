@@ -8,8 +8,7 @@
 #ifndef _CPPSQLITELIB_HTTPSLIB_H_
 #define _CPPSQLITELIB_HTTPSLIB_H_
 
-#include "sqlite3.h"
-
+#include <sqlite3.h>
 #include <stdexcept>
 #include <string>
 #include <tuple>
@@ -42,8 +41,8 @@ namespace sqlitelib {
         }
 
         template<>
-        unsigned char *get_column_value<unsigned char *>(sqlite3_stmt *stmt, int col) {
-            return const_cast<unsigned char *>(sqlite3_column_text(stmt, col));
+        uint8_t *get_column_value<unsigned char *>(sqlite3_stmt *stmt, int col) {
+            return (uint8_t *) sqlite3_column_blob(stmt, col);
         }
 
         template<>

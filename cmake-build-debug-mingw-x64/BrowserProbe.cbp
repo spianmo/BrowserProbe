@@ -17,6 +17,56 @@
 					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="sqlite3">
+				<Option output="D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/libsqlite3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProjects/BrowserProbe/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/openssl"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/openssl/include"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 sqlite3"/>
+					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite3/fast">
+				<Option output="D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/libsqlite3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProjects/BrowserProbe/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/openssl"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/openssl/include"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 sqlite3/fast"/>
+					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="BrowserProbe">
 				<Option output="D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64/BrowserProbe.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/CLionProjects/BrowserProbe/cmake-build-debug-mingw-x64"/>
@@ -24,6 +74,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/CLionProjects/BrowserProbe/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/openssl"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/openssl/include"/>
 					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -45,6 +99,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/CLionProjects/BrowserProbe/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/sqlite3"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/openssl"/>
+					<Add directory="D:/CLionProjects/BrowserProbe/vendor/openssl/include"/>
 					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -113,12 +171,6 @@
 		<Unit filename="D:/CLionProjects/BrowserProbe/browser_factory.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/cJSON.cpp">
-			<Option target="BrowserProbe"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/cJSON.h">
-			<Option target="BrowserProbe"/>
-		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/cookies.cpp">
 			<Option target="BrowserProbe"/>
 		</Unit>
@@ -135,6 +187,12 @@
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/creditCards.h">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/decrypt.cpp">
+			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/decrypt.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/downloads.cpp">
@@ -167,12 +225,6 @@
 		<Unit filename="D:/CLionProjects/BrowserProbe/passwords.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/sqlite3.c">
-			<Option target="BrowserProbe"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/BrowserProbe/sqlite3.h">
-			<Option target="BrowserProbe"/>
-		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/sqlitelib.h">
 			<Option target="BrowserProbe"/>
 		</Unit>
@@ -184,6 +236,12 @@
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/utils.h">
 			<Option target="BrowserProbe"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/vendor/sqlite3/sqlite3.c">
+			<Option target="sqlite3"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/BrowserProbe/vendor/sqlite3/sqlite3.h">
+			<Option target="sqlite3"/>
 		</Unit>
 		<Unit filename="D:/CLionProjects/BrowserProbe/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

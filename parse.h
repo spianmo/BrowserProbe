@@ -40,14 +40,15 @@
 #define bookmarkType     "type"
 #define bookmarkChildren "children"
 
-enum OutputType{JSON,CSV,CONSOLE};
-typedef unsigned char* bytes;
+enum OutputType {
+    JSON, CSV, CONSOLE
+};
 
 class Item {
 public:
     string mainPath;
 
-    virtual void ChromeParse(bytes secretKey) = 0;
+    virtual void ChromeParse(uint8_t* secretKey) = 0;
 
     virtual void FirefoxParse() = 0;
 
